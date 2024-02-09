@@ -12,14 +12,13 @@ body {
   margin-bottom: 15px;
 }
 
-.container {
+.contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
-
 
 
 #valorInput {
@@ -67,3 +66,22 @@ button:hover {
 }
 
 
+@media only screen and (max-width: 600px) {
+
+#tituloJuego {
+    font-size:14px;
+}
+
+
+
+.contenedor button, #regresar-barberia {
+  padding: 7px 12px;
+  margin: 10px; 
+  font-size: 10px;
+}
+
+#valorInput {
+  padding: 7px;
+}
+  
+}
